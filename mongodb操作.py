@@ -1,4 +1,5 @@
 import pymongo
+import pymysql
 client = pymongo.MongoClient(host = 'localhost',port = 27017)
 db = client.test
 collection = db.test1
